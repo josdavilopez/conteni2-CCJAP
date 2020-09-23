@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<title>TOPSDGOS</title>
+	<meta charset="UFT-8">
+	<meta name="viewport" content="width=device-width, inicial-scale=1">
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script text="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/jquery.min.js"></script>	
+	<link rel="" HREF="favicon.ico">
+	<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body id="top" data-spy="croll" data-target=".navbar" data-offset="60">
+	<header>
+	
+	<nav class="navegacion">
+		<ul class="menu">
+			<li><a href="file:///C:/Users/dydda/OneDrive/Documents/hab%20laboral%20software/topsdgos/topsdgos.html">sobre nosotros</a></li>
+			<li><a href="">requisitos PC</a></li>
+			<li><a href="file:///C:/Users/dydda/OneDrive/Documents/hab%20laboral%20software/topsdgos/LosJuegosMásPopularesde2020.html">tops</a>
+			</li>
+			<li><a href="">juegos</a></li>
+		</ul>
+	</nav>
+		<p style="text-align:center">
+		<img alt="Technical City" class="variable_top_bottom_margin_big" src="img/topsdgos.png" 
+		style="max-width:663px;max-height:70px; width:100%">
+	</header>
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8">
+			<div class="bg-grey">
+				<h1>sobre nosotros</h1>
+					<p>Nuestro sitio web te ayudará a tomar una decisión al comprar algunos vidoejuegos o ver los mejores en una categoria y que puedas tomar una decision mas facil rapido y sencillamente a tal punto que esperamos vuelvas a nuestra pagina y te ayudemos denuevo a tomar una decision.</p>
+					<p>si tienes preguntas puedes contactarnos al correo: <link>meg73745@gmail.com</link></p>
+				<section>
+					<h2>topsgos</h2>
+					<p>pagina web de tops de videojuegos por categoria</p>
+				</section>
+				<div class="col-sm-4">
+					<br clear="right"><p><img src="img/plataformas.jpg" Alt="Acerca de"></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+		<!--Pie de página-->
+	<footer class="container-fluid text-center">
+		<a href="#inicio" title="Ir al inicio">
+			<span class="glyphicon glyphicon-home"></span>
+		</a>
+	<p>Página creada por: <a href="#inicio" title="Visite nuestro sitio"> Josue David Lopez Dubon</a></p> 
+	</footer>
+	<!--Script para añadir desplazamiento suave-->
+	<script>
+	$(document).ready(function(){
+		  // Agrega desplazamiento suave a anclas en barra de navegación y pie.
+		  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+			  // Removiendo comportamiento por defecto.
+			  event.preventDefault();
+			  // Almacenando el contenedor destino.
+			  var hash = this.hash;
+			  // Agregando desplazamiento suave.
+			  // El 900 son los milisegundos para moverse.
+			  $('html, body').animate({
+			 // Moviendo sitio a contenedor destino.
+				scrollTop: $(hash).offset().top
+			  }, 900, function(){
+				// Añade el ancla a la dirección.
+				window.location.hash = hash;
+				});
+		  });
+	})
+</body>
+</html>

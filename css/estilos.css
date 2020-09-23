@@ -1,0 +1,512 @@
+@charset "UFT-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.navegacion {
+    text-align: center;
+	font-family: sans-serif;
+}
+.boli {
+	text-align: center;
+	color: #231F1F;
+}
+.liz {
+	text-align: center;
+	font-family:sans-serif;
+}
+.light-blue{
+	background-color: #DEEBEC
+}
+.egt {
+	text-align: center;
+}
+.jumbotron {
+	background-color:  #15b7bd;
+	color: #ffffff;
+	padding: 100px 25px;
+	font-family: sans-serif;
+	text-align: center;
+}
+.jumbotronn {
+	background-color:  #2C646F;
+	color: #ffffff;
+	font-family: sans-serif;
+	text-align:
+}
+.container-fluid {
+	padding: 40px 50px
+}
+.bg-grey {
+	background-color: #DCDCDC;
+}
+.bg-white{
+	background-color: #
+} 
+.panel {
+	border: 1px solid #EDC45B;
+}
+panel:hover {
+	box-shadow: 3px 7px 30px #008000;
+}
+	.equipo .panel-heading {
+	color: #fff;
+	background-color: #F7780F;
+	padding: 25px;
+	border-bottom: 1px solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.panel-footer {
+	background-color: #EDC45B;
+}
+.panel-footer h4 {
+	color: #0C32F5;
+	font-size: 15px;
+}
+h1 {
+font-family: ‘Open Sans’, sans-serif !important;
+}
+/*table*/
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 20px;
+}
+.nani {
+	
+}
+.floatedTable {
+	float:left;
+}
+.inlineTable {
+	display: inline-block;
+}
+.navegacion {
+	width: 1250px;
+	padding: 30px auto;
+	margin: 5px;
+	background: #4DAF23;
+}
+.navegacion	 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu > li{
+	/*position: relative;*/
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: _open-sans_;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .0.3s
+}
+/*submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 15%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family:_open-sans_;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+body{
+	background: #EDEDED;
+	}
+header{
+	background: #CBCBCB;
+	}
+aside{
+  padding: 10px;
+}
+p {
+font-size: 20px !important;
+}
+p {
+font-family: 'Open Sans';
+font-size: 14px;
+color: #000000;
+line-height: 18px;
+margin-bottom: 20px;
+padding: 1px 40px;
+}
+body{
+	padding: 1px 35px;
+}
+button type="botton"{
+	padding: 10px;
+}
+.panel-footer h4{
+	color: #0c32F5;
+	font-size: 15px;
+}
+@media screen and (min-width:320px) {
+	img  {
+			max-width: 100%;
+	}
+}
+@media screen and(min-width:768px) {
+	img{
+		max-width: 150px;
+	}
+}
+@media screen and (min-width:980px) {
+	img  {
+			max-width: 225px;
+	}
+}
+@media screen and (min-width:1200px) {
+	img  {
+			max-width: 300px;
+	}
+}
+.icono {
+	color: #FFFA65;
+	font-size: 20px;
+}
+.menu {
+    background-color: #4DAF23;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #fff;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #f4511e;
+    background-color: #fff;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 15%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family:_open-sans_;
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+body {
+	font: Lato, sans-serif;
+	line-height: 2.8;
+	color: #4DAF23;
+}
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.wp-block-table .has-subtle-pale-green-background-color {
+    background-color: #e9fbe5;
+}
+.wp-block-table table {
+    width: 100%;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0,0,0,.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: normal;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: normal;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+body, button, input, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #efefef;
+    color: #141414;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 400;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+element.style {
+}
+.wp-block-table .has-subtle-pale-pink-background-color {
+    background-color: #fcf0ef;
+}
+.wp-block-table table {
+    width: 100%;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgba(0,0,0,.1);
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.wp-block-column {
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+.site-content, .entry-header {
+    word-wrap: break-word;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: normal;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
+}
+body, button, input, select, textarea {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: normal;
+    text-transform: none;
+    font-size: 17px;
+    line-height: 1.5;
